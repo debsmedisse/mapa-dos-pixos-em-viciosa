@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Pixos de Viciosa City</name>
+    <description><![CDATA[O mapa reúne fotografias de pixações e grafites de Viçosa-MG, de um arquivo pessoal de pesquisa sobre essa manifestação artística pelas ruas da cidade, que vem sendo registado desde 2018. <br><br>Clicando nos ícones é possível visualizar as fotografias produzidas nos locais, que compõem esse repositório da pesquisa com as expressões artísticas das ruas de Viciosa City (para os mais chegados).]]></description>
+    <Style id="icon-1499-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1501-C2185B-labelson">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1502-FFD600-labelson">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1509-E65100-labelson">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1509-FFD600-labelson">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1511-E65100-labelson">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1540-000000-labelson">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1541-F57C00-labelson">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1564-0F9D58-labelson">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1564-E65100-labelson">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1592-C2185B-labelson">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1592-FF5252-labelson-nodesc">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1598-795548-labelson">
+      <IconStyle>
+        <color>ff485579</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1643-000000-labelson">
+      <IconStyle>
+        <color>ff000000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1644-558B2F-labelson">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1653-424242-labelson">
+      <IconStyle>
+        <color>ff424242</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1661-1A237E-labelson">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1676-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1680-4E342E-labelson">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1728-0097A7-labelson">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1728-FF5252-labelson">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1740-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1764-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1783-3949AB-labelson">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1806-C2185B-labelson">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1826-7CB342-labelson">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1826-9C27B0-labelson">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1846-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1852-097138-labelson">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1855-A52714-labelson">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1866-F9A825-labelson">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1877-4E342E-labelson">
+      <IconStyle>
+        <color>ff2e344e</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1898-880E4F-labelson">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1898-BDBDBD-labelson">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-labelson-nodesc">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Folder>
+      <name>Pixos</name>
+      <Placemark>
+        <name>Viçosa</name>
+        <styleUrl>#icon-1899-0288D1-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -42.8800278,-20.7561451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Boa noite Viçosa</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvfMhOeg6JoGbUM8YoiTBg1w8Cg9blm5pDluh-9roJrFUoFp-p0IA3qgn2x5tSpCtZfoJoyyX83jDukZsanlQbZC0c6gtokJnUS0ONjJRF3NekuqNy6G3cb1xGRk9xvvdw_daSpNckM6WkQN8QVP1ygH3QrecTZGzMdnTKazu71p55sCFh5hqk401Hy_N8TQoc3l9nE77a_RQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1499-1A237E-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvfMhOeg6JoGbUM8YoiTBg1w8Cg9blm5pDluh-9roJrFUoFp-p0IA3qgn2x5tSpCtZfoJoyyX83jDukZsanlQbZC0c6gtokJnUS0ONjJRF3NekuqNy6G3cb1xGRk9xvvdw_daSpNckM6WkQN8QVP1ygH3QrecTZGzMdnTKazu71p55sCFh5hqk401Hy_N8TQoc3l9nE77a_RQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8815601,-20.7549733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Muro das Lamentações</name>
+       <description><![CDATA[
+  <div style="text-align: center;">
+    <img src="Muro das lamentações 1 - Viçosa.jpg" width="100%" style="margin-bottom: 10px; border-radius: 4px;" />
+    
+    <p><strong>Fragmento do muro:</strong><br>Não adianta pintar!</p>
+
+    <img src="https://drive.google.com/file/d/14xIMLCk9qXOhbEAZVbZetxuuU3WuEoG0/view?usp=drive_link" width="100%" style="margin-top: 10px; border-radius: 6px;" />
+
+    <img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvxCpiaGYTw2mGJog65SRxYHmZh1q08agisJ2eY6i2AbwiMdqc3DfrMBg8nHDWshEBBnxb4oZfN0wTl4M81R_sxWLXK0FILLASskHUWnRjnSNWqcMs6mu11rO3JgClgggLtrYOt5TpkJdoncZpgBNRhJS_Gp8HNxhBfwvdAKxzx7gLsRtjPB8es4Wz-Qow_FyvZRjNxNdDqVYKIxh51fbnO6cDq74a-c-z0vFLoz6PN4SOgdAjzZ5gZMzg?authuser=0&fife=s16383" width="100%" style="margin-top: 10px; border-radius: 6px;" />
+  </div>
+]]></description>
+        <styleUrl>#icon-1846-A52714-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvNakdwsbUS1Yre5YwmAhc5ei8cfo-fuUw-28jsp9jAYZZCmH6SHHQrbVzrhbMeppkYtxaLBRQEYh8Qchz5C2iYH6bGKbdcPON0hG_V0exOQNcvIzLRLXiv8MRCFAwu9VLAHEf2e2LLZvvgPk9Rwv_pFd_sWaVfMJmEvM4A8CIt43sEghpvLUtgo9CON2y0DiRlMVmLoK_Vb08U_ABnJvSZZOIgcf_tqwnxpgC7QZB3XZcJGInVqq4fbmw?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvaYd1l_ruNb9_ZOQ7Z86izdERairHBH5ApoGzaf1EQW9ir8YtrutCFSseqR74f4SIaxOmgkocCFQeK2TMoyzuSKKRBccX4sJnzlNyJLvSpqAJTAXL_MS-5TMCBGwt0XXerXV_nGLbwQU1TrUHuvzIFmpkLOGFHs_ycKnMqlpy4pwVzvH6f7qDSnvUkLN8r8e12_nyg65Ev8T19qcM6yB6bFsx2cv7LxiHeupMJOwLuqUlbfqwokx1UQAc?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvxCpiaGYTw2mGJog65SRxYHmZh1q08agisJ2eY6i2AbwiMdqc3DfrMBg8nHDWshEBBnxb4oZfN0wTl4M81R_sxWLXK0FILLASskHUWnRjnSNWqcMs6mu11rO3JgClgggLtrYOt5TpkJdoncZpgBNRhJS_Gp8HNxhBfwvdAKxzx7gLsRtjPB8es4Wz-Qow_FyvZRjNxNdDqVYKIxh51fbnO6cDq74a-c-z0vFLoz6PN4SOgdAjzZ5gZMzg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8826267,-20.7540804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tentar esquecer já é lembrar</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsTYbLgwSpUlkMjehjOaJIA8bUefNUA7k1EFkJoo-rQnxvdCrXc3MovJAIkf5TYXclZFf7s_Ju9M2D_fw4DSqvBSv4i7PIBF3Q_Z6UJbYGvNiQ0kXjI3uU4_jOKMLfM6xRsou0jkJyjF98KZxNlYaOoZU6-tVnQ7EGIkLX-okK_pB8WlGp0r6zAol0zcxYFlK9G1gEtcYDFVKD7dFE_GEAbhzdWaPjV8DjPXDzvNHqDhfrcRPQ8htyNmc0?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvPeczo0NFiSP74m3eyP-a5PF5eoUQBq9TiuSaRGghN2aP6Q6VOsYNH2OzwyPCgG2wbIN71TNxRTZLnbBN1giXduIsEPuRAkpsVIyCh8NJqmB_TxA5sj8wJahx3e58laAKaBWxueBNW68a16UBe6afa6BoS58AYeK43d43AKn4wRz_ZgUqOrSM3rGrmcGiGLLWc9TCIBtZI2bHGIb9D3yeCqItavYt7HMGfgY3h84dfymDOrnlqGPCi-ME?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1643-000000-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsTYbLgwSpUlkMjehjOaJIA8bUefNUA7k1EFkJoo-rQnxvdCrXc3MovJAIkf5TYXclZFf7s_Ju9M2D_fw4DSqvBSv4i7PIBF3Q_Z6UJbYGvNiQ0kXjI3uU4_jOKMLfM6xRsou0jkJyjF98KZxNlYaOoZU6-tVnQ7EGIkLX-okK_pB8WlGp0r6zAol0zcxYFlK9G1gEtcYDFVKD7dFE_GEAbhzdWaPjV8DjPXDzvNHqDhfrcRPQ8htyNmc0?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvPeczo0NFiSP74m3eyP-a5PF5eoUQBq9TiuSaRGghN2aP6Q6VOsYNH2OzwyPCgG2wbIN71TNxRTZLnbBN1giXduIsEPuRAkpsVIyCh8NJqmB_TxA5sj8wJahx3e58laAKaBWxueBNW68a16UBe6afa6BoS58AYeK43d43AKn4wRz_ZgUqOrSM3rGrmcGiGLLWc9TCIBtZI2bHGIb9D3yeCqItavYt7HMGfgY3h84dfymDOrnlqGPCi-ME?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8804273,-20.7573961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>+ amor por favor</name>
+        <styleUrl>#icon-1592-FF5252-labelson-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -42.8846613,-20.7535769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>A Praga e outros</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtNn_P9wkRuvCTzqis1U2cLCX2HwzNlNLJVxhVXTz5701lZgS9j0FutRK6_V_5GdEvSd4P42m2ASSlZw8CX-RK11lgc4EMExHKh4NczzODcGhRfhDfO1dQDgEBkoYC0r0PkBNQBq02jUWIKVxmKlBHbUG3GKHU5LWaHolSVfkRiEtlLqjEAz4oo2zqMrJ3vyZyJQ58PZOs3rw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1680-4E342E-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtNn_P9wkRuvCTzqis1U2cLCX2HwzNlNLJVxhVXTz5701lZgS9j0FutRK6_V_5GdEvSd4P42m2ASSlZw8CX-RK11lgc4EMExHKh4NczzODcGhRfhDfO1dQDgEBkoYC0r0PkBNQBq02jUWIKVxmKlBHbUG3GKHU5LWaHolSVfkRiEtlLqjEAz4oo2zqMrJ3vyZyJQ58PZOs3rw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8790788,-20.7559412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fascismo não se discute, se destrói!!!</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvmCcnHdbDQkJaSry8a16mLlTYr8mj8HFRD-uos_13KB3Ez4q9K4maeFEghm_KpVHqMpLpFxpYWL3LeFts9Hszt7sbCHpBCnTq--QCuu6jHkktiBltmR9ISRID0s0l4Yx5Qwj3AbV1lcMjZpkmFbVndW2kPFF8zBAnXZjnDi11xGRg8ufQmzoZjpDKuhYElv8_yMbTaB9RU_A?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1564-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvmCcnHdbDQkJaSry8a16mLlTYr8mj8HFRD-uos_13KB3Ez4q9K4maeFEghm_KpVHqMpLpFxpYWL3LeFts9Hszt7sbCHpBCnTq--QCuu6jHkktiBltmR9ISRID0s0l4Yx5Qwj3AbV1lcMjZpkmFbVndW2kPFF8zBAnXZjnDi11xGRg8ufQmzoZjpDKuhYElv8_yMbTaB9RU_A?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8840815,-20.7545047,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Poder sem Amor é tirania</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtSzpc84oQKKeI2eueQ80K9o0qwbNnuvZHNqQ8ZJZ7-jNnSUoORV7bZMgIJQmErxhYopFVpbaky64bDdVHU_UN_xPYcW8KMrD6OM_-4Zu2Qc5xx8Wpk5bmVE2zsRud8CXdYB1mgUPKItyYZ8oh-Keivg4CH68DZ3ofQwshnqeP6ds8WyXZQzi0N8ARx_e0CiMq4IccD51AoeOX2Kn34YF0vnLTWyVr9QgEK249abbcrxStbGbKgokrF_cQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1653-424242-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtSzpc84oQKKeI2eueQ80K9o0qwbNnuvZHNqQ8ZJZ7-jNnSUoORV7bZMgIJQmErxhYopFVpbaky64bDdVHU_UN_xPYcW8KMrD6OM_-4Zu2Qc5xx8Wpk5bmVE2zsRud8CXdYB1mgUPKItyYZ8oh-Keivg4CH68DZ3ofQwshnqeP6ds8WyXZQzi0N8ARx_e0CiMq4IccD51AoeOX2Kn34YF0vnLTWyVr9QgEK249abbcrxStbGbKgokrF_cQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8802558,-20.7523144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Em terra de cego quem tem olho errei</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsqmTN4RBfyqWKLWb7IXAffmAxEOrOW5Ok4d4-7n8JPYKkZl_R4eTcb2ll1B0ceqTzdb7E3bE_2Kc09ZA_VFoUN-T_j9WB_tbvECM-yHSVjrYiAwnC6PvO8WgrayKC7Z07BfPxwtDiHPZbsaWOp_iKC-MUOfwMF2Qh3EenEGmkBxcDwhCo1oU8J2LulADejk6Q_2ERhVLM7HERfd5gmHnac-lU5964lp9LxP5i-18uCBjfpoobm2SuKjJ4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1898-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsqmTN4RBfyqWKLWb7IXAffmAxEOrOW5Ok4d4-7n8JPYKkZl_R4eTcb2ll1B0ceqTzdb7E3bE_2Kc09ZA_VFoUN-T_j9WB_tbvECM-yHSVjrYiAwnC6PvO8WgrayKC7Z07BfPxwtDiHPZbsaWOp_iKC-MUOfwMF2Qh3EenEGmkBxcDwhCo1oU8J2LulADejk6Q_2ERhVLM7HERfd5gmHnac-lU5964lp9LxP5i-18uCBjfpoobm2SuKjJ4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8803336,-20.7522292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quando à noite, o infinito se levanta</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKu-Lc9JN3-WMV4lfOx-PO8uofVxrV_s4kS79D2JQt2-0xc7QpHErTC00KsbBnuNPm_cMjcWaA0DEZtYu1fxNdtMyD_VB4iqxMiMjbBN-07IsnCDHySa6J1Rb_hfw5Bc-7NbS6zqDIt3X_aqTXdIlezGLU4-seHOTmdJm7amaib5t7MUx5xoiQimLvlodsidUbWCPn6Foxtol2bwqae9zDYsAh0k-21xc_x0sO5ydRa133VYfooc0x-baM8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1806-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKu-Lc9JN3-WMV4lfOx-PO8uofVxrV_s4kS79D2JQt2-0xc7QpHErTC00KsbBnuNPm_cMjcWaA0DEZtYu1fxNdtMyD_VB4iqxMiMjbBN-07IsnCDHySa6J1Rb_hfw5Bc-7NbS6zqDIt3X_aqTXdIlezGLU4-seHOTmdJm7amaib5t7MUx5xoiQimLvlodsidUbWCPn6Foxtol2bwqae9zDYsAh0k-21xc_x0sO5ydRa133VYfooc0x-baM8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8845677,-20.7534194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Desbinarize poc</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsdqdn7WH6-uDAQk0zp-CylHKONCUQqURyWoZBAwWk3A1amzSU_nFUSysM20EDrrHJV3j5NPZ4A9ozKI6Bl9PiSXmNkp9Wnn39a7EyWSWXIGkyTJIANVAWLNB-cJ3ixinCtrJwMUEjVL4cl_mmuZaviDw0BrZ8o493B9f4zbiY-cZ4O8prOXuvLDvKNvDlYfbXVZXI0RvDCSTgn-MTknSJ-2b7ug8JkhCvsVq5b7HUw_Zb9vY6RCGb3Wl4?authuser=0&fife=s16383" height="200" width="auto" /><br><br>"Desbinarize poc", "BB, ontem sonhei com vc! Mais um dia sem te ver :( ]]></description>
+        <styleUrl>#icon-1502-FFD600-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsdqdn7WH6-uDAQk0zp-CylHKONCUQqURyWoZBAwWk3A1amzSU_nFUSysM20EDrrHJV3j5NPZ4A9ozKI6Bl9PiSXmNkp9Wnn39a7EyWSWXIGkyTJIANVAWLNB-cJ3ixinCtrJwMUEjVL4cl_mmuZaviDw0BrZ8o493B9f4zbiY-cZ4O8prOXuvLDvKNvDlYfbXVZXI0RvDCSTgn-MTknSJ-2b7ug8JkhCvsVq5b7HUw_Zb9vY6RCGb3Wl4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8796528,-20.7565799,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>O amor machuca e eu sangro tinta </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvFaq1TEF3CSrL-dwx4YCEcoTePEk9rHp2Ez13qWaxEeZ2nyZaJeBgGx9sHE-G1RQH62v1hJvaOOCe44SoHYhXGIUNjcdtoAWeYRfEnXOATvBqLIfM1jMqSwGnWsNdwgAOfn15-h_4VnKDZc0Io2hffWh587xMOgR5RQ3EVHttjQLYeUyQKisUYrQ_L612msa9kNKsEMnHDHoPSIUALbCuPLz7Xcex8ZJomXSS64ZlyRFc6shkDI6ClE54?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1509-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvFaq1TEF3CSrL-dwx4YCEcoTePEk9rHp2Ez13qWaxEeZ2nyZaJeBgGx9sHE-G1RQH62v1hJvaOOCe44SoHYhXGIUNjcdtoAWeYRfEnXOATvBqLIfM1jMqSwGnWsNdwgAOfn15-h_4VnKDZc0Io2hffWh587xMOgR5RQ3EVHttjQLYeUyQKisUYrQ_L612msa9kNKsEMnHDHoPSIUALbCuPLz7Xcex8ZJomXSS64ZlyRFc6shkDI6ClE54?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8806379,-20.7585573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Menina linda quero andar no seu skate!!!</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsPWM-PkBGbQTBtmHTa7ljwueNmLJB4efSf0tzumS3SKKMf4iInysJws9xbSONeQG1GEQyRINR-XOulZiYqZtnGmnn3jLc5PEHcgoPquNcT-WZI3gHdzkeNoiDsgLV6IOlcmT4cPBiVkzlStlWf2sIyvhYpyqrIfBvYYY4S6SkhqWeQ6CM12cQvQhTELVZNEW0f9rlYi0U9V56bbAkfgV179kn0fGJxdNFbdlGbo7ACIWY2uP7cgtd3waQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1866-F9A825-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsPWM-PkBGbQTBtmHTa7ljwueNmLJB4efSf0tzumS3SKKMf4iInysJws9xbSONeQG1GEQyRINR-XOulZiYqZtnGmnn3jLc5PEHcgoPquNcT-WZI3gHdzkeNoiDsgLV6IOlcmT4cPBiVkzlStlWf2sIyvhYpyqrIfBvYYY4S6SkhqWeQ6CM12cQvQhTELVZNEW0f9rlYi0U9V56bbAkfgV179kn0fGJxdNFbdlGbo7ACIWY2uP7cgtd3waQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8796691,-20.7566886,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quem divive, multiplica! e outros</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvTBDCndNi2ONFj7sm6Ho_5O2FBgf4Dzs1HUj7Y1KVId6nJrebFePsq0CgzUeSfkr7nJv0R7avqFUw-BxaTiaGOlbfO3ZeSftHk_qCTotwX9dj7dDLeza6ylnvq2LUSUTtFQISsfFg5pK8ohKdRun2rEJyVhscqruw0XpsvrbiMO23If1dQS2dpegN4taFUVcZGBzXIgE7dEsUr811zr-aDM5U5jbrBWewLrFmvLMVHrJmPshe-0acoJi8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1826-7CB342-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvTBDCndNi2ONFj7sm6Ho_5O2FBgf4Dzs1HUj7Y1KVId6nJrebFePsq0CgzUeSfkr7nJv0R7avqFUw-BxaTiaGOlbfO3ZeSftHk_qCTotwX9dj7dDLeza6ylnvq2LUSUTtFQISsfFg5pK8ohKdRun2rEJyVhscqruw0XpsvrbiMO23If1dQS2dpegN4taFUVcZGBzXIgE7dEsUr811zr-aDM5U5jbrBWewLrFmvLMVHrJmPshe-0acoJi8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8796986,-20.7567838,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mural de pixo/Mural de grafite</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKviIYkxJQ0dWcJP9kwTpRPaQyI_OztcBR0FOGpUhfnz_1A604FSfv7EWb-8ShkIxWrdBQ6bCFrxba8HiJrqaaO5iAIt6pxlJfHV8lVg7K8C3SOTQYTQL_DarpzitOzBTpTNmqNXjJu7vG1DE7jxg34t2Zf56-gQdupDuEMPSp03_CAZw5ZH1Gf4CXNtznW9a4XSxQAF9DaHrgB3ZObdMqeZSEkwvUGg4WnQDeTcRyJeORzAuwbyKGnlTlw?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKteQoAizljuQiC4nOpx4JO7xXbNetA0i8J9nuVw10VRIs_uzeQsxgiJcyyJe58ZzpfejsSLB15F1_fwY0Svo69OTepz3-yVcQjcpGx54GW37EeginOdIGo1Jo6ai6joImsYj3CxxWGc_G7h9MVz7DKuYjZr8eKjdog52rEfKfC3c2QUGDRcpMIlw4_u3US-wBbS8MBrGWibYBB0xuJXvpK661_RPS4T2xmIxZM3bn76SctFP5b1HYiA8L4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1728-0097A7-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKviIYkxJQ0dWcJP9kwTpRPaQyI_OztcBR0FOGpUhfnz_1A604FSfv7EWb-8ShkIxWrdBQ6bCFrxba8HiJrqaaO5iAIt6pxlJfHV8lVg7K8C3SOTQYTQL_DarpzitOzBTpTNmqNXjJu7vG1DE7jxg34t2Zf56-gQdupDuEMPSp03_CAZw5ZH1Gf4CXNtznW9a4XSxQAF9DaHrgB3ZObdMqeZSEkwvUGg4WnQDeTcRyJeORzAuwbyKGnlTlw?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKteQoAizljuQiC4nOpx4JO7xXbNetA0i8J9nuVw10VRIs_uzeQsxgiJcyyJe58ZzpfejsSLB15F1_fwY0Svo69OTepz3-yVcQjcpGx54GW37EeginOdIGo1Jo6ai6joImsYj3CxxWGc_G7h9MVz7DKuYjZr8eKjdog52rEfKfC3c2QUGDRcpMIlw4_u3US-wBbS8MBrGWibYBB0xuJXvpK661_RPS4T2xmIxZM3bn76SctFP5b1HYiA8L4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.880499,-20.7590676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mural educação</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuu9KD8y0lPzE4_6QXMeCCe1yTEOpa6ikt3cYvuCD_zUuzgwK_WhItMVc5QhBKU3SxPnWg4o223Kl6PieA2N2KhLBzheLzLeuM0LoL5UeJpyE7o2RkIDcAGEVSrCosAn_Hgk6jDMZsJVLPXa04gwslDLluF5aRSnHvzpT_T2Pfeym8zQXsO9n8dcVOYpdEIPcpdp4LMqsvhAREPTOOYCvdK_7prSaMWArdH8CloWiTfrs4bqvcS8YUhoOE?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1740-0288D1-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuu9KD8y0lPzE4_6QXMeCCe1yTEOpa6ikt3cYvuCD_zUuzgwK_WhItMVc5QhBKU3SxPnWg4o223Kl6PieA2N2KhLBzheLzLeuM0LoL5UeJpyE7o2RkIDcAGEVSrCosAn_Hgk6jDMZsJVLPXa04gwslDLluF5aRSnHvzpT_T2Pfeym8zQXsO9n8dcVOYpdEIPcpdp4LMqsvhAREPTOOYCvdK_7prSaMWArdH8CloWiTfrs4bqvcS8YUhoOE?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8801316,-20.7593422,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seja diferente</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsO0W4r7m6opSPKjTH3jomdf_H5nl_fVffS8iNMbnyS5Pn9B_VbkrXeY5TmifYkXbI8HnOXXGiOPqw74CENf-ik6fiLEgJbrSqRPNtUjiDhRGSAG8daHLh_7uvTBkAg1NwbaO1WO-32YjzgjTjDlzTCfinoeMjtqIj1yYstDvSkpWKtyDEPp8J8LdR-CAI47u0HyP0EbjaNJ2JqwruQaON58o52BC88fc8hvAGXo6GPQQ2_4tRe4tKHCR8?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1852-097138-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsO0W4r7m6opSPKjTH3jomdf_H5nl_fVffS8iNMbnyS5Pn9B_VbkrXeY5TmifYkXbI8HnOXXGiOPqw74CENf-ik6fiLEgJbrSqRPNtUjiDhRGSAG8daHLh_7uvTBkAg1NwbaO1WO-32YjzgjTjDlzTCfinoeMjtqIj1yYstDvSkpWKtyDEPp8J8LdR-CAI47u0HyP0EbjaNJ2JqwruQaON58o52BC88fc8hvAGXo6GPQQ2_4tRe4tKHCR8?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8792205,-20.7597286,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>As pessoas não são más</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuWa0Gh8D6TJQ8zhBna1U4O2nupIP3Dis_dUJtV7ByXRRq6rkpLW-xg8jcT_h7IRkCgsfFz3FSaL1_8zEnBfcZCBqwuWl0s-VUZev3kz4553m0sWIUupyobxfB91zsThfdC6K-_tD94c8HKriR0_dnyN3Agp1QT7H02Dh2dwe6ByAiFjvAkb1LmE1iKf7h0AIahEm4FFNdVOm2k_1OsROwlO_sWaMoaa25b9RHEqcsNZZ5VVqWC48ifMis?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1676-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuWa0Gh8D6TJQ8zhBna1U4O2nupIP3Dis_dUJtV7ByXRRq6rkpLW-xg8jcT_h7IRkCgsfFz3FSaL1_8zEnBfcZCBqwuWl0s-VUZev3kz4553m0sWIUupyobxfB91zsThfdC6K-_tD94c8HKriR0_dnyN3Agp1QT7H02Dh2dwe6ByAiFjvAkb1LmE1iKf7h0AIahEm4FFNdVOm2k_1OsROwlO_sWaMoaa25b9RHEqcsNZZ5VVqWC48ifMis?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8844274,-20.7554203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Quem mandou matar marielle</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvUK0EPbQWNOvHtnHtxntfAAumfyhlQrCFICxT4LqjYYyZTkuQS09T9DuPDy7yxI-LSuJN_PrE1TxKe9vEDXBnEIE0FrFZz66omgEhaGNc84BluHj1oBQ6bf4ahrcbjc5tqFG1yE1HZuN6883upaWuYm-wpMxaMuevWXahq2eA9W9boawTEngenlZWukVpTnWN2lZkZK0m0O05YlGF1uoWR-xYCRlTOOXd-ozkI6AWZNgBfNW14wrx6ZkQ?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1541-F57C00-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvUK0EPbQWNOvHtnHtxntfAAumfyhlQrCFICxT4LqjYYyZTkuQS09T9DuPDy7yxI-LSuJN_PrE1TxKe9vEDXBnEIE0FrFZz66omgEhaGNc84BluHj1oBQ6bf4ahrcbjc5tqFG1yE1HZuN6883upaWuYm-wpMxaMuevWXahq2eA9W9boawTEngenlZWukVpTnWN2lZkZK0m0O05YlGF1uoWR-xYCRlTOOXd-ozkI6AWZNgBfNW14wrx6ZkQ?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8841071,-20.7547836,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hoje eu quero sair só!</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvtGl7K21ZyMLhmZBr6_5ZDMxAtqKloo0q3pu260UcPMTl1zQEty-kij0uWMBNyDk3DT_XkWoo84bkq69uxxLkXyg-GegSlnH5qPo82vNYBNKbCH6WfL0WBnLD4KievJrPTU4RdV4KWtc5VaLwL5F1fG9pq33fCL9pmoYJKVeBr7UCXPy7atnTDp8RzD4KRz8h2XPvkZ3dE8PvKWp0geS0xgGcu22Eh4MMZnt5HiuV-c5UJKmBbX7AVams?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1783-3949AB-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvtGl7K21ZyMLhmZBr6_5ZDMxAtqKloo0q3pu260UcPMTl1zQEty-kij0uWMBNyDk3DT_XkWoo84bkq69uxxLkXyg-GegSlnH5qPo82vNYBNKbCH6WfL0WBnLD4KievJrPTU4RdV4KWtc5VaLwL5F1fG9pq33fCL9pmoYJKVeBr7UCXPy7atnTDp8RzD4KRz8h2XPvkZ3dE8PvKWp0geS0xgGcu22Eh4MMZnt5HiuV-c5UJKmBbX7AVams?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8844956,-20.7537538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Casa abandonada da carinha</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKshQXknkRIDlNmPD3mpm_DjqvpBrrJokQH-BNrhJ79vqyA3ZTeYYEi3FlHaUnkMgm9LGu-jqbEkjZS0onsYvG_UqMlKrFZwIhsO21z71PUa3pJTMnqNXMbWZaSOKboCTlwCB8nU08F7BkLEyNEBX8MdN473ffiULw9pxBpvlVIq-O7CoJebYKFE0rLoaNq4BQqQwe9jCJ_qqPkLArCAmOJHnJzPwlyPy_ahW-AFRHLn4du7_jaFZPWh4EY?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1598-795548-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKshQXknkRIDlNmPD3mpm_DjqvpBrrJokQH-BNrhJ79vqyA3ZTeYYEi3FlHaUnkMgm9LGu-jqbEkjZS0onsYvG_UqMlKrFZwIhsO21z71PUa3pJTMnqNXMbWZaSOKboCTlwCB8nU08F7BkLEyNEBX8MdN473ffiULw9pxBpvlVIq-O7CoJebYKFE0rLoaNq4BQqQwe9jCJ_qqPkLArCAmOJHnJzPwlyPy_ahW-AFRHLn4du7_jaFZPWh4EY?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8815703,-20.7547676,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Podre crê - CTDF</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKugvjDoI6VZeDks_dgxbSIryQUucxCSz33OTWyvnSH7YYJPIOMSpCSPK0BO_l-FnaqwcTy0EtrMh9Nz6DuGWaKIXHoMWlRBSl6hG65fHvCQ2vvY5XCv1k_IgXADvYU5mv1q0wzJ9ziR6UfVspRkj02xLwb0PvfexOUIO2oGSdinMRIarY8mC3UeTisYZl4QckDxbpTj46-vI5rBJt-UCFHsDW61qMZ3Z9di43TYT3dRS66NI32-fzWY8_Q?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1898-880E4F-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKugvjDoI6VZeDks_dgxbSIryQUucxCSz33OTWyvnSH7YYJPIOMSpCSPK0BO_l-FnaqwcTy0EtrMh9Nz6DuGWaKIXHoMWlRBSl6hG65fHvCQ2vvY5XCv1k_IgXADvYU5mv1q0wzJ9ziR6UfVspRkj02xLwb0PvfexOUIO2oGSdinMRIarY8mC3UeTisYZl4QckDxbpTj46-vI5rBJt-UCFHsDW61qMZ3Z9di43TYT3dRS66NI32-fzWY8_Q?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8856702,-20.7563009,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mural Escadão </name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvB1YHCUyW0-ei-ioXqHIT4M1upf99bo_bnNqJzN9DVaO5iWupoCNkH1WSM1SYMmaCMRG0tefCXbvdVLZps85jX8ZYhnpLfxANoyPedyYUogxgJPhgrM4z56mifOsCjQ9nrb4Q-1sHD4tDw-ihlB0DaP8OyEsKAo3Jnw_mJZx5jV18LPTsTHkEnPBff3DpN9dmCGwwUPAA2_nFJMuP5kkzfNQ6gxwlKpkQQpgWyGXrAj40W9QuvnT6BgzY?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKu36aY5th3qwrP81FuSKGn_9PqAIm-TWMHe1ERH8dBLJWFdXtBgXI8ckIq3I0BM_IfB-uaXso5MbeulE-AqV6vj9GkSWD47pYpAuckimKzbWyB1UQHwhgwl9XYgooANHgx3omAiHYMjQ7HctEL6Ym6aoEGFwpRIcThhYOZJVNQNye9W3p1Z8sC6Z935Nx7YbsWb5lN2HuKL73N94pjufqPdCo4Gk3QleXy6i4MLDQssakqWtMGEJtdRuG4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1877-4E342E-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvB1YHCUyW0-ei-ioXqHIT4M1upf99bo_bnNqJzN9DVaO5iWupoCNkH1WSM1SYMmaCMRG0tefCXbvdVLZps85jX8ZYhnpLfxANoyPedyYUogxgJPhgrM4z56mifOsCjQ9nrb4Q-1sHD4tDw-ihlB0DaP8OyEsKAo3Jnw_mJZx5jV18LPTsTHkEnPBff3DpN9dmCGwwUPAA2_nFJMuP5kkzfNQ6gxwlKpkQQpgWyGXrAj40W9QuvnT6BgzY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKu36aY5th3qwrP81FuSKGn_9PqAIm-TWMHe1ERH8dBLJWFdXtBgXI8ckIq3I0BM_IfB-uaXso5MbeulE-AqV6vj9GkSWD47pYpAuckimKzbWyB1UQHwhgwl9XYgooANHgx3omAiHYMjQ7HctEL6Ym6aoEGFwpRIcThhYOZJVNQNye9W3p1Z8sC6Z935Nx7YbsWb5lN2HuKL73N94pjufqPdCo4Gk3QleXy6i4MLDQssakqWtMGEJtdRuG4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8812724,-20.7587171,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lulão voltou</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsWl5D31AqoBcZ63onhql5obtYqAATnSMU65eYZnPLrk6ThB5OrrK6PdcUyBFultk-dahpPmnNJCoqXlcDhlV0m92BOswwQO39PyBoQr3eH30LFH7oAlWgz_5MST6MlyqHFcQV5IHub1YxO-8lGs2McerQO5pSN7UpW4trqbZzz8zWi5zbQpsNfnvOjbkJD7g18YCLMQB_InzvSTIZ4V1rY5KqBBWkfluxAVXrEkQqRGXRqcj33G18bl54?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1855-A52714-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsWl5D31AqoBcZ63onhql5obtYqAATnSMU65eYZnPLrk6ThB5OrrK6PdcUyBFultk-dahpPmnNJCoqXlcDhlV0m92BOswwQO39PyBoQr3eH30LFH7oAlWgz_5MST6MlyqHFcQV5IHub1YxO-8lGs2McerQO5pSN7UpW4trqbZzz8zWi5zbQpsNfnvOjbkJD7g18YCLMQB_InzvSTIZ4V1rY5KqBBWkfluxAVXrEkQqRGXRqcj33G18bl54?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8789245,-20.7558774,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arte privada</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtV6fo18yESTj8kI0y3vyDLG-FVamLA8zlTpDolSDQdgvaIvJHyldXxu1228Ba3sWAdmEEXkdK0pDstxp9lVNvCKxmHdT3i8vS1wXpbawT5YpdJd6SOYWrWndRBtbi1UFl0MXU4Ws4x-2Oi4BDTY33H6ca2JXhFLcZnShh9PilXiVbuBhyerE3_uFPOQLURJeQ-_nPdTw84iXfUTvx8C7V-MYq0LW0V5MpIuzqJxmOrCnEb93FHGZje5ic?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1501-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtV6fo18yESTj8kI0y3vyDLG-FVamLA8zlTpDolSDQdgvaIvJHyldXxu1228Ba3sWAdmEEXkdK0pDstxp9lVNvCKxmHdT3i8vS1wXpbawT5YpdJd6SOYWrWndRBtbi1UFl0MXU4Ws4x-2Oi4BDTY33H6ca2JXhFLcZnShh9PilXiVbuBhyerE3_uFPOQLURJeQ-_nPdTw84iXfUTvx8C7V-MYq0LW0V5MpIuzqJxmOrCnEb93FHGZje5ic?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8820796,-20.7523055,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vários</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKurIdFjJjnYBW-Z-vGC90hWj-Lk3CaKZ9YIbh3bVqqgabFjmhTYM6G2h-O8moIc2hPpSxIqInt4uXo8i4UiUEL2LWdw2-6jjlHIT08XYd5XQDomLgfq1iVCsi1_A4PcvwFl12MO16NizEqkkz1aK1KBCf89IoF63WfGL25JmMXyYV5zMTJcVF5qv6f6I8zf21lWDRmPctuuMvD1aahKBWbDGMDynj-kpZuNYGjqZpvF7fLN3X_NGeRkPMk?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1728-FF5252-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKurIdFjJjnYBW-Z-vGC90hWj-Lk3CaKZ9YIbh3bVqqgabFjmhTYM6G2h-O8moIc2hPpSxIqInt4uXo8i4UiUEL2LWdw2-6jjlHIT08XYd5XQDomLgfq1iVCsi1_A4PcvwFl12MO16NizEqkkz1aK1KBCf89IoF63WfGL25JmMXyYV5zMTJcVF5qv6f6I8zf21lWDRmPctuuMvD1aahKBWbDGMDynj-kpZuNYGjqZpvF7fLN3X_NGeRkPMk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8820984,-20.752002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mural - Diversos Artistas</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsLeaFtgAfdcI4CCM_40yAqJ1a6vCnuNXK77KXMlWJnviaYdyuEch0h8vogLIIK2AWZp955KK8Red9FDqHjMlGjLaVYSOuF1BNvsSd-L6YYhZh8EuiDfksQBybAK5EUr6oIxq2zn84X_r4DqjmQkbi13lyDEWYa3ziTKTvPWE-KUfKVLG4eq4yaAecICz3P4nKicoo8pTbMuT5fk-oO_FepSEvKyZsFLHiIknYOG36JVNZTMnu-4fluEbY?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuqrQ3j5O7apAkGFMBXJ8-oswVHPRicVyCb13mAmbDxnI_zoKXRE7xwGMMf6IsWyoGt4exFEV7IFMezAomjf_9R0d_DezsWexmM52x3-mr4XmkdBt6sOHn_eLn9-SBK6Nxl8qjsedAcSayZGcrZpmt0l5Xtt6rntFDqMIZ5z8hghDlLSteN1D3SoCkjmbO7uWcMsHAL-_WK_zTjrcXQXwJwbKzCZHiP_AGlwqyv4lYrfijSsJWnmJsN15c?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtJzD5FtH5UFBWgNr2PBBj0DBadc1lxD6wlp7Vqfozmf45EMePU_C4fxyQfi1mEv1k0gitosCMPNFM3wDLNHewzuN92yEpDtXpRNZXB_1VO6cUdCnITwMQhbeUt7eW-nGvrzFaEPBNss4-NW7MOmYACYa-paD7uu6bwNE1ISqphTs-yrDsZlj3Iqygs3lhtXPqNWEBAEtZdYgee9EGjKFvHWaaBK1cREftvOYV7Wq9Yu3_6okXFmcdA1aY?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvv-2S5sphsKvxgfXyk4gOu1OrGVZ-w5R1zTszKWi_2XztvrvxJrBo0UKpoL30J0JJzu1YQZBirm9Ulvbl6bRjqaMdOS3H2NMNJPMk5pKLs5HTOn8CH-A1LbsX3J5vQfUvm1vRBYn_VjMxmkwq3oFn2ix_j-xfntEnrejRhYtTAOPJdnrLBdKa30REbA4eLyEyg5Dzw0oclJQY-BcyK171ma1XcteIkXcq5BHMP2WQoIFPnhTPF_KZmiBo?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1826-9C27B0-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsLeaFtgAfdcI4CCM_40yAqJ1a6vCnuNXK77KXMlWJnviaYdyuEch0h8vogLIIK2AWZp955KK8Red9FDqHjMlGjLaVYSOuF1BNvsSd-L6YYhZh8EuiDfksQBybAK5EUr6oIxq2zn84X_r4DqjmQkbi13lyDEWYa3ziTKTvPWE-KUfKVLG4eq4yaAecICz3P4nKicoo8pTbMuT5fk-oO_FepSEvKyZsFLHiIknYOG36JVNZTMnu-4fluEbY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuqrQ3j5O7apAkGFMBXJ8-oswVHPRicVyCb13mAmbDxnI_zoKXRE7xwGMMf6IsWyoGt4exFEV7IFMezAomjf_9R0d_DezsWexmM52x3-mr4XmkdBt6sOHn_eLn9-SBK6Nxl8qjsedAcSayZGcrZpmt0l5Xtt6rntFDqMIZ5z8hghDlLSteN1D3SoCkjmbO7uWcMsHAL-_WK_zTjrcXQXwJwbKzCZHiP_AGlwqyv4lYrfijSsJWnmJsN15c?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtJzD5FtH5UFBWgNr2PBBj0DBadc1lxD6wlp7Vqfozmf45EMePU_C4fxyQfi1mEv1k0gitosCMPNFM3wDLNHewzuN92yEpDtXpRNZXB_1VO6cUdCnITwMQhbeUt7eW-nGvrzFaEPBNss4-NW7MOmYACYa-paD7uu6bwNE1ISqphTs-yrDsZlj3Iqygs3lhtXPqNWEBAEtZdYgee9EGjKFvHWaaBK1cREftvOYV7Wq9Yu3_6okXFmcdA1aY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvv-2S5sphsKvxgfXyk4gOu1OrGVZ-w5R1zTszKWi_2XztvrvxJrBo0UKpoL30J0JJzu1YQZBirm9Ulvbl6bRjqaMdOS3H2NMNJPMk5pKLs5HTOn8CH-A1LbsX3J5vQfUvm1vRBYn_VjMxmkwq3oFn2ix_j-xfntEnrejRhYtTAOPJdnrLBdKa30REbA4eLyEyg5Dzw0oclJQY-BcyK171ma1XcteIkXcq5BHMP2WQoIFPnhTPF_KZmiBo?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8803893,-20.7592177,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Três Bandeiras grafites</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuqLKfMDpaI1ZNb-FHycgY2y3HHZAzROcK8CAig_h8rVBkrF1k6Qmn-hXun_dHSdaLkhNUWcI5IA7C26qsxcHSoFugCv7mhbRQyUTCxS-1CYu0AgM9eLvHcikBM_s4xRfmciXaW_hJR4vSCpItkvKUfwyODTqZnBItQ5Muc3QnAASXYBKzGmtmgL_7uZTvoV_-YNnoo7jkPpd36FtOAPBSQxtuGCD5D7Jq6Owe25-mTAk6eHtZNYVYM4EA?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1661-1A237E-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuqLKfMDpaI1ZNb-FHycgY2y3HHZAzROcK8CAig_h8rVBkrF1k6Qmn-hXun_dHSdaLkhNUWcI5IA7C26qsxcHSoFugCv7mhbRQyUTCxS-1CYu0AgM9eLvHcikBM_s4xRfmciXaW_hJR4vSCpItkvKUfwyODTqZnBItQ5Muc3QnAASXYBKzGmtmgL_7uZTvoV_-YNnoo7jkPpd36FtOAPBSQxtuGCD5D7Jq6Owe25-mTAk6eHtZNYVYM4EA?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8662753,-20.7590992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mural Colab dbzzzz_ e PSYKO</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKu2gE_T3alq9kuEK_N2_9JhKIMRj_qKF9ZmbAvaJOzeAyNAUesRoldvNkGzieYwfEM55UjZd4muRJ9NwhBpH9KsyALZPDORsn-aVw72oroL3ZxQknL8uRaUawyP6SGGdmSFIjXc98vc_I1Bem48jmQxspFPnhWKTNx62cyR_t_NGb4sN6ObxxvEQkEKvf4vg03Mpnz573k5EWkjBrS47FT9--yEb1s3-YDI4L_5oqL-I7aSkmeQKMUJua4?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuNFlGeoAtQuyJhXqU4P4v0I_9Edov-BblKbMmQBt_JqoRn0lgBYksUGIjw8PonjAoLeTvRPSJDTlbhTGAHWFmaEixBE6D9NAD3C1eK9qQy6hTVNx2IujmO8LeDtGKqEGSVCImdXH7lej5hOtzE6yfpdWA_NXmavuAgaU9ejIBYJqZx0M2h9aFxhdFLqOUSglOOiEIZ5rn9cu56GjW06i3E_Mhw4IeJnjnF7zTalxsGxgIsoARxCockYj8?authuser=0&fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKusNutp9mLicQE1MdJTt3uAE0BLHTfqw3kf4JDJ5cRxhioFxNClwLM902erkdTafG1Q7OeQOXlHzw2w0DsBnfrrd1sdgmin73jzjhfnqA06AjRVKt6KKowfI0-yBRYreIfH61H6fg_XrfUXpgvP30BP9bObSs6LJVTRLBsR8SpowHvAIzlkLYqt57Ej_oRWIfjnqldMX4Flt0SW02zi4gzP9ftkJpE3DoVO6zvNnz4yGRSeXb7c8B2LS98?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1509-FFD600-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKu2gE_T3alq9kuEK_N2_9JhKIMRj_qKF9ZmbAvaJOzeAyNAUesRoldvNkGzieYwfEM55UjZd4muRJ9NwhBpH9KsyALZPDORsn-aVw72oroL3ZxQknL8uRaUawyP6SGGdmSFIjXc98vc_I1Bem48jmQxspFPnhWKTNx62cyR_t_NGb4sN6ObxxvEQkEKvf4vg03Mpnz573k5EWkjBrS47FT9--yEb1s3-YDI4L_5oqL-I7aSkmeQKMUJua4?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuNFlGeoAtQuyJhXqU4P4v0I_9Edov-BblKbMmQBt_JqoRn0lgBYksUGIjw8PonjAoLeTvRPSJDTlbhTGAHWFmaEixBE6D9NAD3C1eK9qQy6hTVNx2IujmO8LeDtGKqEGSVCImdXH7lej5hOtzE6yfpdWA_NXmavuAgaU9ejIBYJqZx0M2h9aFxhdFLqOUSglOOiEIZ5rn9cu56GjW06i3E_Mhw4IeJnjnF7zTalxsGxgIsoARxCockYj8?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKusNutp9mLicQE1MdJTt3uAE0BLHTfqw3kf4JDJ5cRxhioFxNClwLM902erkdTafG1Q7OeQOXlHzw2w0DsBnfrrd1sdgmin73jzjhfnqA06AjRVKt6KKowfI0-yBRYreIfH61H6fg_XrfUXpgvP30BP9bObSs6LJVTRLBsR8SpowHvAIzlkLYqt57Ej_oRWIfjnqldMX4Flt0SW02zi4gzP9ftkJpE3DoVO6zvNnz4yGRSeXb7c8B2LS98?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8853767,-20.755592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mural colab dbzzzz_ e PSYKO</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKt3exCYQRQRL8aoYOXWt5xIe56wHcRHbvf0WpuIlGxcCA_YKPauoEpilHWhEsgbtJ52uNU34-JzOVqdlgmHAdoq2qMr_2NvEoaNsN-d7h8JMjaVAl0SpxP0ypmQEuD4vpckJ4w7ESp7s3I7RkfJUi3ifuPQLJLLSCfoUexJEe9EFj4AhSGpQgdA14JtIfSm5xqxsU_Y71RungJS_D2MXX0mt_JaBsesL9AKcB7VN8Z1gm5f6tP7aCKgeQY?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsnngAn4uhXE-a14-YIUZ0LiwCW0dqykhJ8r66aWczqcs4MxnaqfsEntMRdf0YZG6rjY0Kna_olVNe9CUnd_j6iv3BXORcbYuvM3MBBYxOWUbrTsAGwJ6jzUd_gfhAUjX2b7Aui8LxUVk5AwsdRF1nW0f1Ckx_2dTMBv8ILAYagX1XSgUo7RzOnB2pXyMgPT9Eqav_-nzmbF4bInpOYCx2oEGGhAyqcGlcQiovqUDtcdI171L8QenfPwOg?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1509-FFD600-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKt3exCYQRQRL8aoYOXWt5xIe56wHcRHbvf0WpuIlGxcCA_YKPauoEpilHWhEsgbtJ52uNU34-JzOVqdlgmHAdoq2qMr_2NvEoaNsN-d7h8JMjaVAl0SpxP0ypmQEuD4vpckJ4w7ESp7s3I7RkfJUi3ifuPQLJLLSCfoUexJEe9EFj4AhSGpQgdA14JtIfSm5xqxsU_Y71RungJS_D2MXX0mt_JaBsesL9AKcB7VN8Z1gm5f6tP7aCKgeQY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsnngAn4uhXE-a14-YIUZ0LiwCW0dqykhJ8r66aWczqcs4MxnaqfsEntMRdf0YZG6rjY0Kna_olVNe9CUnd_j6iv3BXORcbYuvM3MBBYxOWUbrTsAGwJ6jzUd_gfhAUjX2b7Aui8LxUVk5AwsdRF1nW0f1Ckx_2dTMBv8ILAYagX1XSgUo7RzOnB2pXyMgPT9Eqav_-nzmbF4bInpOYCx2oEGGhAyqcGlcQiovqUDtcdI171L8QenfPwOg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8848764,-20.753351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mural Branco</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKusNowxZPub5dvrrtKmlftzO9i3hzmjg-R7MrOb-jQwOGEpWMDXsN5GqTzMt0Uo-suEsChdqbnAElSHCozr59emn0A8N0M8MqKC0jl7lzw7at3kw0Ei1jZ6c1FOn8e5YVR8kaxTvPLddWfJQ6td0spW9x-tEX-v0G6HU_fjv0y_imeAlLtgdB9HlQ8e2aKPoypVPadaN2fK1XYcmCyyNU6qHyHRebzrgLhOm4zRdUt0uBYDiGt4uXNMnyg?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1564-0F9D58-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKusNowxZPub5dvrrtKmlftzO9i3hzmjg-R7MrOb-jQwOGEpWMDXsN5GqTzMt0Uo-suEsChdqbnAElSHCozr59emn0A8N0M8MqKC0jl7lzw7at3kw0Ei1jZ6c1FOn8e5YVR8kaxTvPLddWfJQ6td0spW9x-tEX-v0G6HU_fjv0y_imeAlLtgdB9HlQ8e2aKPoypVPadaN2fK1XYcmCyyNU6qHyHRebzrgLhOm4zRdUt0uBYDiGt4uXNMnyg?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8849475,-20.7533084,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Grafite BJ</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuDvWr3cS9nfHr2fWwjyTUtdb55968lgLJhUdEZRjtgb6C8plfIFixVFj2KWJhBP6nAH0N2vbAS_bjOflq6FhQfizdciwxz4ZjSXOQOSK9Q00qHeGqcNY_QeZhUs_naRmSy0d2v8JLyF4jIBpxuUAY8okK699P0dKl2F_Ofwa_aSA2Jm1kttFUs65BkDTsuljF0IEskkT-0NIenuluEpCJZOCplYUZYuS-K2m0FtHouldg0P9F1x5AsioY?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtyaa1VUO9ehbCeNZJEVoQ7cZvBLhw4mq5d8nLXVnuNSjHIbcQMPKMmsv5HvCxh8dhUouO1-fKxSHbcvaHEGfuYc_TGCIhEhqGYyCUjCBgDJbhOuqn1gUdEC5rXfjxRj8hcEiO6MZhzRuzT2YWU1Za_Ls1mfHOj_il4r4sEofr8hlocgKeLtuQFDHxXflbAiACaTCQb3Y-xeXoCGzLfI5r7uQyXq1PVvf5-3YAVBtj0G8OGR-fQivSKm_4?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1511-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuDvWr3cS9nfHr2fWwjyTUtdb55968lgLJhUdEZRjtgb6C8plfIFixVFj2KWJhBP6nAH0N2vbAS_bjOflq6FhQfizdciwxz4ZjSXOQOSK9Q00qHeGqcNY_QeZhUs_naRmSy0d2v8JLyF4jIBpxuUAY8okK699P0dKl2F_Ofwa_aSA2Jm1kttFUs65BkDTsuljF0IEskkT-0NIenuluEpCJZOCplYUZYuS-K2m0FtHouldg0P9F1x5AsioY?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKtyaa1VUO9ehbCeNZJEVoQ7cZvBLhw4mq5d8nLXVnuNSjHIbcQMPKMmsv5HvCxh8dhUouO1-fKxSHbcvaHEGfuYc_TGCIhEhqGYyCUjCBgDJbhOuqn1gUdEC5rXfjxRj8hcEiO6MZhzRuzT2YWU1Za_Ls1mfHOj_il4r4sEofr8hlocgKeLtuQFDHxXflbAiACaTCQb3Y-xeXoCGzLfI5r7uQyXq1PVvf5-3YAVBtj0G8OGR-fQivSKm_4?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8826559,-20.7704536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stencil - Fora familícia bolsonaro</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsE9660oCbNaY6zNaME6efsfsC05HNtvQpE_wsb5TlMvVvABArNltaN3Rnk7entg7mafxx5Zn5T-_wR-zYrZ3Q40YtUNhQBtdv2I7EEnOELfxajwXwCVJV9lzseZw3p1BXuqdWDFzcTSPE_Tqkit7HZfJ8So821KH0A13ya929TX-Ri8c4OvIaVx5LLh7dHemcel2K1xphbBhftj4tVzf-l4_jMiLD8UFWBPi1PwQE-B1IaFxvYVjs8gik?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuZGULfqv_ediP0RNuePcWEK1HeOiavxcu9vTAbYdYFTDyAPaSBc7h0S4z13GDnCP9hslc48euRIUHwDtJMWcTdCwbNEFpA8eigDnr5tPeMZT-s9v1Yix8K_AhGlgwF6MriqpTLahbECXtrtGaWr9U8E5tRqCpLHmj_c28D9VMLHtzcB18PB7UZGq2tONO-fFfYohCShhrV8pwOmFRm9susnkex3fX2WjzrextFLr_zTqvpuh2Cr9E03xs?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1540-000000-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsE9660oCbNaY6zNaME6efsfsC05HNtvQpE_wsb5TlMvVvABArNltaN3Rnk7entg7mafxx5Zn5T-_wR-zYrZ3Q40YtUNhQBtdv2I7EEnOELfxajwXwCVJV9lzseZw3p1BXuqdWDFzcTSPE_Tqkit7HZfJ8So821KH0A13ya929TX-Ri8c4OvIaVx5LLh7dHemcel2K1xphbBhftj4tVzf-l4_jMiLD8UFWBPi1PwQE-B1IaFxvYVjs8gik?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKuZGULfqv_ediP0RNuePcWEK1HeOiavxcu9vTAbYdYFTDyAPaSBc7h0S4z13GDnCP9hslc48euRIUHwDtJMWcTdCwbNEFpA8eigDnr5tPeMZT-s9v1Yix8K_AhGlgwF6MriqpTLahbECXtrtGaWr9U8E5tRqCpLHmj_c28D9VMLHtzcB18PB7UZGq2tONO-fFfYohCShhrV8pwOmFRm9susnkex3fX2WjzrextFLr_zTqvpuh2Cr9E03xs?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8789138,-20.7596214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>inferninho</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvuQg7J4oe5uS2Wf8vxN0Etw67rHokiAP9RpYomoIX8olVbyEQp2jMVIzn62fSkbSyDa2U4EWCcYF91L6efF2Cb7aDxKXxlksdP6rLKZZOFBYS_lAgHb3_5of5eOx4ocbVc12Rms6rrGZR2jwW4vFIHd7MCM1wOkD0jgXw75Yz6EPP1KPjUClsrcmNyh1eiLHGYqsG2ckLped5t8LWSexrgxHCHvlXN6qFqvm8xbJKZQmFtK9rle5s_Btw?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1764-A52714-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKvuQg7J4oe5uS2Wf8vxN0Etw67rHokiAP9RpYomoIX8olVbyEQp2jMVIzn62fSkbSyDa2U4EWCcYF91L6efF2Cb7aDxKXxlksdP6rLKZZOFBYS_lAgHb3_5of5eOx4ocbVc12Rms6rrGZR2jwW4vFIHd7MCM1wOkD0jgXw75Yz6EPP1KPjUClsrcmNyh1eiLHGYqsG2ckLped5t8LWSexrgxHCHvlXN6qFqvm8xbJKZQmFtK9rle5s_Btw?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8855673,-20.7562337,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>É foda te querer</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKv3UH-YvcQMCdcR1orBQ_vhzFKiWwQMZR_2j6uveCPV67r_tu0AQCwb6tgpT9EyLhO7vHx1gak0oo0tuuPTsflurgf0HrcjJgFPtJo5ehUNB8OWcHBHfI-yYDEzV4UrXlgGDx57LK1zm7qQgtXBI0S72LTPup-04RBJhczHicw9mQN1Q30SDNCDsngUxn2SMDv5qzbXzH_N0IrYdkzZmZZj4wVTsWwpsbFddEoea_SZVf37xMuAN0O9QIg?authuser=0&fife=s16383" height="200" width="auto" /><br><br><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsciJ8_rNeCFpCw6XBCTD3F_ALst8tj4PMOT1heWu-JEjHMcEbtU4LHeZi97yQXKbhTVj341C-4rctXjZRffjHwJZqNgK1Dv2Ph75A3IRe59x7IuIO-QKyFtLYDNFSTFspuEOT5HvudoW90_vnkT-nA4fL5xG9DTeXtN2tCbfTivcR_yHTZcUlOIK7QqZ_Dwyq6un-G057SV8WQvLIHuorjRvf8fCfu4zCpdB3bWqRcR2U5jE-Z4EfKk3w?authuser=0&fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1592-C2185B-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKv3UH-YvcQMCdcR1orBQ_vhzFKiWwQMZR_2j6uveCPV67r_tu0AQCwb6tgpT9EyLhO7vHx1gak0oo0tuuPTsflurgf0HrcjJgFPtJo5ehUNB8OWcHBHfI-yYDEzV4UrXlgGDx57LK1zm7qQgtXBI0S72LTPup-04RBJhczHicw9mQN1Q30SDNCDsngUxn2SMDv5qzbXzH_N0IrYdkzZmZZj4wVTsWwpsbFddEoea_SZVf37xMuAN0O9QIg?authuser=0&fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsciJ8_rNeCFpCw6XBCTD3F_ALst8tj4PMOT1heWu-JEjHMcEbtU4LHeZi97yQXKbhTVj341C-4rctXjZRffjHwJZqNgK1Dv2Ph75A3IRe59x7IuIO-QKyFtLYDNFSTFspuEOT5HvudoW90_vnkT-nA4fL5xG9DTeXtN2tCbfTivcR_yHTZcUlOIK7QqZ_Dwyq6un-G057SV8WQvLIHuorjRvf8fCfu4zCpdB3bWqRcR2U5jE-Z4EfKk3w?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8811006,-20.7630363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>GGzen</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsJk0yPlaT3CguFFdOVN4HZBFKwXa8_RXLH_V9DS9EVMcuTb4yIKxMPHxF-Dd_U_KaWfE0LSYLfjsIYBhokMPZzd72vSZl3CZ1vnLuoSsmSwONRGv_i3zTAOv7_cAgtpmaTSIGDqhGjevUn11O5I8ZZ0X6XwrlNE4qN6n8Xzll-Stfu3KfxfAwH8GipfRRn2042CS87h9Ox1gz-dN2Ur7WVtt8oSUB5OveVxc9OE54TCg5P7flV-w3xcGk?authuser=0&fife=s16383" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1644-558B2F-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://mymaps.usercontent.google.com/hostedimage/m/*/3ADbDBKsJk0yPlaT3CguFFdOVN4HZBFKwXa8_RXLH_V9DS9EVMcuTb4yIKxMPHxF-Dd_U_KaWfE0LSYLfjsIYBhokMPZzd72vSZl3CZ1vnLuoSsmSwONRGv_i3zTAOv7_cAgtpmaTSIGDqhGjevUn11O5I8ZZ0X6XwrlNE4qN6n8Xzll-Stfu3KfxfAwH8GipfRRn2042CS87h9Ox1gz-dN2Ur7WVtt8oSUB5OveVxc9OE54TCg5P7flV-w3xcGk?authuser=0&fife=s16383]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -42.8757687,-20.7573179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Camada sem título</name>
+    </Folder>
+  </Document>
+</kml>

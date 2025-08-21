@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>Mapa do piXos de Viciosa-MG</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      height: 100vh;
+      font-family: sans-serif;
+    }
+
+    #menu-lateral {
+      width: 280px;
+      background-color: #800000;
+      color: #fff;
+      padding: 20px;
+      overflow-y: auto;
+      box-shadow: 2px 0 8px rgba(0, 0, 0, 0.3);
+    }
+
+    #menu-lateral h2 {
+      margin-top: 0;
+      font-size: 14px;
+      border-bottom: 1px solid #fff;
+      padding-bottom: 5px;
+    }
+
+    .camada {
+      margin-bottom: 20px;
+    }
+
+    .camada h3 {
+      font-size: 14px;
+      margin-bottom: 10px;
+      border-left: 4px solid #fff;
+      padding-left: 10px;
+    }
+
+    .ponto {
+      margin-left: 10px;
+      padding: 4px 0;
+      font-size: 12px;
+      border-bottom: 1px dashed rgba(255,255,255,0.3);
+      cursor: pointer;
+    }
+
+    .ponto:hover {
+      text-decoration: underline;
+    }
+
+    #map {
+      flex: 1;
+      height: 100%;
+    }
+
+    .leaflet-popup-content-wrapper {
+      background: #b30000;
+      color: white;
+      font-size: 14px;
+      border-radius: 2px;
+    }
+
+    .leaflet-popup-tip {
+      background: #b30000;
+    }
+
+.leaflet-popup-content {
+  width: 500px;
+  max-width: 500px;
+}
+.leaflet-popup-content img {
+  max-width: 100%;   /* ocupa no máximo a largura do popup */
+  height: auto;      /* ajusta altura proporcionalmente */
+  display: block;
+  margin: 0 auto 4px;  /* centraliza e mantém espaçamento */
+}
+.carousel {
+  position: relative;
+  max-width: 500px;
+  margin: none;
+  overflow: hidden;
+}
+
+.carousel img {
+  max-width: 100%;
+  max-height: 500px;  /* limite opcional, ajusta se quiser */
+  height: auto;
+  display: none;
+  margin: 0 auto;
+  object-fit: contain; /* garante que a proporção nunca distorce */
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.carousel .prev {
+  left: 5px;
+}
+.carousel .next {
+  right: 5px;
+}
+
+  </style>
+</head>
+<body>
+
+<div id="menu-lateral">
+
+<img src="marginais.png" alt="Logo do mapa" style="width: 100%; height: auto; margin-bottom: 10px; border-radius: 2px;" />
+
+  <h2>Mapa dos piXos de Viciosa-MG</h2>
+
+  <div class="camada">
+    <h3>Legenda</h3>
+    <div id="lista-pontos"></div>
+  </div>
+  <p style="margin-top: 20px; font-size: 13px; opacity: 0.8;">
+<b>Sobre |</b>
+<br/>
+    O mapa reúne fotografias de pixações e grafites de Viçosa-MG, de um arquivo pessoal de pesquisa sobre essa manifestação artística pelas ruas da cidade, que vem sendo registado desde 2018. Essa produção faz parte da pesquisa e projeto artístico <b>Fragmentos Marginais: cartografia afetiva com as artes de rua de Viçosa e Ubá-MG</b>.
+<br/>
+Clicando nos ícones é possível visualizar as fotografias produzidas nos locais, que compõem esse repositório da pesquisa com as expressões artísticas das ruas de Viciosa City (para os mais chegados).
+<br/>
+Viu alguma arte sua e gostaria de reproduzir a imagem? Fique a vontade para salvar, créditos são bem vindos! (Instagram @dbzzzz_ e @fragmentos.marginais, por Déborah Médice).
+  </p>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-omnivore@0.3.4/leaflet-omnivore.min.js"></script>
+
+<script>
+  const map = L.map('map').setView([-15.7801, -47.9292], 4);
+
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+    attribution: '&copy; OpenStreetMap & CartoDB',
+    subdomains: 'abcd',
+    maxZoom: 50
+  }).addTo(map);
+
+  const lista = document.getElementById('lista-pontos');
+
+  // Ícone padrão para pontos que não estiverem no dicionário de ícones
+  const iconePadrao = L.icon({
+    iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
+    iconSize: [18, 29],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34]
+  });
+
+  // Dicionário para customizar ícones individualmente por nome do ponto
+  // Basta colocar o nome EXATO do ponto (como aparece no KML) e o ícone correspondente
+  const iconesCustomizados = {
+    "Boa noite Viçosa": L.icon({
+      iconUrl: 'lua.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+    "Muro das Lamentações": L.icon({
+      iconUrl: 'choro.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+    "Tentar esquecer já é lembrar": L.icon({
+      iconUrl: 'esquecer.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"+ amor por favor": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"A Praga e outros": L.icon({
+      iconUrl: 'agenda.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Fascismo não se discute, se destrói!!!": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Poder sem Amor é tirania": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Em terra de cego quem tem olho errei": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Quando à noite, o infinito se levanta": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Desbinarize poc": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Seja diferente": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural educação": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"As pessoas não são más": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Quem mandou matar marielle": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Hoje eu quero sair só!": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Casa abandonada da carinha": L.icon({
+      iconUrl: 'agenda.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Podre crê - CTDF": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Lulão voltou": L.icon({
+      iconUrl: 'agenda.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural Escadão": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Arte privada": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Vários": L.icon({
+      iconUrl: 'agenda.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural - Diversos Artistas": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Três Bandeiras grafites": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural Colab dbzzzz_ e PSYKO": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural colab dbzzzz_ e PSYKO": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural Branco": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Grafite BJ": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Stencil - Fora familícia bolsonaro": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"inferninho": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"É foda te querer": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"GGzen": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"O amor machuca e eu sangro tinta ": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Menina linda quero andar no seu skate!!!": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Quem divive, multiplica! e outros": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural de pixo/Mural de grafite": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+"Mural Escadão ": L.icon({
+      iconUrl: 'amor.png',
+      iconSize: [20, 20],
+      iconAnchor: [15, 30],
+      popupAnchor: [0, -30]
+    }),
+    // Adicione quantos quiser aqui, por exemplo:
+    // "Nome do Ponto": L.icon({ ... })
+  };
+
+ omnivore.kml('pixos.kml')
+  .on('ready', function () {
+    const grupo = L.featureGroup();
+
+    this.eachLayer(function (layer) {
+      const props = layer.feature?.properties || {};
+      const nome = props.name || 'Sem nome';
+      const descricao = props.description || '';
+
+      // Conteúdo do popup - aqui pode colocar html com imagens etc
+      const popupContent = `
+  <div style="
+    max-width: 800px;
+    background-color: #b30000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 12px;
+    border-radius: 0px;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+  ">
+    <h3 style="
+      margin-top: 0;
+      font-size: 18px;
+      color: #fff;
+    ">${nome}</h3>
+    
+    <!-- Aqui fica o carrossel -->
+    <div class="carousel">
+      ${descricao}
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+    </div>
+  </div>
+`;
+
+     layer.bindPopup(popupContent, {
+  maxWidth: 500,  // largura máxima do popup
+  minWidth: 400,   // largura mínima
+  className: 'custom-popup' // opcional para CSS adicional
+});
+
+
+layer.on("popupopen", function (e) {
+  const popup = e.popup.getElement();
+  const images = popup.querySelectorAll(".carousel img");
+  const prevBtn = popup.querySelector(".carousel .prev");
+  const nextBtn = popup.querySelector(".carousel .next");
+
+  if (images.length > 0) {
+    let current = 0;
+    images[current].classList.add("active");
+
+    prevBtn.onclick = () => {
+      images[current].classList.remove("active");
+      current = (current - 1 + images.length) % images.length;
+      images[current].classList.add("active");
+    };
+
+    nextBtn.onclick = () => {
+      images[current].classList.remove("active");
+      current = (current + 1) % images.length;
+      images[current].classList.add("active");
+    };
+  } else {
+    // Se não tiver imagens, esconde os botões
+    if (prevBtn) prevBtn.style.display = "none";
+    if (nextBtn) nextBtn.style.display = "none";
+  }
+});
+
+      // Aplica ícone customizado se existir
+      if (iconesCustomizados[nome]) {
+        layer.setIcon(iconesCustomizados[nome]);
+      } else {
+        layer.setIcon(iconePadrao);
+      }
+
+      // Evento para centralizar o mapa quando o popup abrir
+      layer.on('popupopen', function () {
+  const popupHeight = 600; // ajuste conforme a altura do seu popup
+  const point = map.latLngToContainerPoint(layer.getLatLng()); // posição no container
+  const newPoint = L.point(point.x, point.y - popupHeight / 3);  // sobe metade da altura do popup
+  const newLatLng = map.containerPointToLatLng(newPoint);
+
+   map.flyTo(newLatLng, map.getZoom(), { // mantém o zoom atual
+    animate: true,
+    duration: 0.5
+  });
+});
+
+      grupo.addLayer(layer);
+
+      // Cria item no menu lateral
+      // Cria item no menu lateral com ícone
+const item = document.createElement('div');
+item.className = 'ponto';
+
+// Pega o ícone correspondente ou usa o padrão
+const icone = iconesCustomizados[nome] || iconePadrao;
+
+// Cria imagem do ícone
+const img = document.createElement('img');
+img.src = icone.options.iconUrl;
+img.style.width = icone.options.iconSize[0] + 'px';
+img.style.height = icone.options.iconSize[1] + 'px';
+img.style.verticalAlign = 'middle';
+img.style.marginRight = '6px';
+
+// Adiciona a imagem e o nome do ponto
+item.appendChild(img);
+item.appendChild(document.createTextNode(nome));
+
+// Mantém a funcionalidade de clicar e abrir o popup
+item.onclick = () => {
+  map.flyTo(layer.getLatLng(), 16, {
+    animate: true,
+    duration: 0.5
+  });
+  layer.openPopup();
+};
+
+lista.appendChild(item);
+});
+
+    map.fitBounds(grupo.getBounds());
+    grupo.addTo(map); // Adiciona o grupo ao mapa
+  });
+
+</script>
+
+</body>
+</html>
